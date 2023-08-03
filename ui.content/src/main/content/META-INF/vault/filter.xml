@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/EniSpagna" mode="merge"/>
+    <filter root="/content/EniSpagna" mode="merge"/>
+    <filter root="/content/dam/EniSpagna" mode="merge">
+        <exclude pattern="/content/dam/EniSpagna(/.*)?"/>
+        <include pattern="/content/dam/EniSpagna/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/EniSpagna/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/EniSpagna" mode="merge"/>
+</workspaceFilter>
